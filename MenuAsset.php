@@ -15,12 +15,12 @@ namespace wbraganca\mmenu;
  */
 class MenuAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/jQuery.mmenu/dist';
+    public $sourcePath = '@bower/jQuery.mmenu';
     public $css = [
-        'css/jquery.mmenu.all.css',
+        'distr/core/css/jquery.mmenu.all.css',
     ];
     public $js = [
-        'js/jquery.mmenu.min.all.js'
+        'distr/core/js/jquery.mmenu.min.all.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
