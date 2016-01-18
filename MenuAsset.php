@@ -17,10 +17,10 @@ class MenuAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/jQuery.mmenu';
     public $css = [
-        'src/css/jquery.mmenu.all.css',
+        'dist/core/css/jquery.mmenu.all.css',
     ];
     public $js = [
-        'src/js/jquery.mmenu.min.all.js'
+        'dist/core/js/jquery.mmenu.min.all.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
