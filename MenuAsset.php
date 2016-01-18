@@ -24,6 +24,5 @@ class MenuAsset extends \yii\web\AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapAsset',
     ];
 }
